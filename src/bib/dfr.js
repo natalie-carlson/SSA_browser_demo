@@ -10,7 +10,7 @@ bib.dfr = function (spec) {
     // Construction: override inherited sorting()
     that.sorting([
         ["author_authortitle", "alphabetically by company name"],
-        ["score_author", "by social orientation score"]
+        ["score_author", "by social orientation score (0-100)"]
     ]);
 
     // sort keys
