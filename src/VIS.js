@@ -26,11 +26,10 @@ var VIS = {
         }
     },
     condition: {            // metadata variable to condition topics on
-        type: "time",       // alternatives: "category" and "continuous"
+        type: "continuous",       // alternatives: "category" and "continuous"
         spec: {
-            field: "date",  // name of metadata field
-            unit: "year",   // unit of time bins
-            n: 1            // width of time bins
+            field: "score",  // name of metadata field
+            step: 0.05           // width of time bins
             // format: "%Y-%m" // optional display format (strftime)
         }
     },
