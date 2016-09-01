@@ -132,7 +132,7 @@ bib.dfr = function (spec) {
         
         s += doc.title + '<br>';
 
-        s += 'Social Orientation Score: ' + String(doc.score) + '.';
+        s += 'Social Orientation Score (0-100): ' + String(doc.score) + '.';
 
         return s;
     };
