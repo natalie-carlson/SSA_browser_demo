@@ -10,12 +10,12 @@ bib.dfr = function (spec) {
     // Construction: override inherited sorting()
     that.sorting([
         ["author_authortitle", "alphabetically by company name"],
-        ["score_author", "by social orientation score (0-100)"]
+        ["score_author", "by social orientation score"]
     ]);
 
     // sort keys
     that.keys.score = function (doc) { 
-        return doc.score;
+        return Number(doc.score);
     };
 
     // major: author first letter

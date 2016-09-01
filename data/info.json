@@ -11,8 +11,8 @@
             }
         },
         "bib_sort": {
-            "major": "score",
-            "minor": "alpha"
+            "major": "author",
+            "minor": "authortitle"
         },
         "model_view": {
             "plot": {
