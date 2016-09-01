@@ -4,14 +4,15 @@
     "VIS": {
         "condition": {
             "type": "continuous",
-            "name": "social orientation score",
+            "name": "Social Orientation Score",
             "spec": {
                 "field": "score",
                 "step": 0.05
             }
         },
         "bib_sort": {
-            "major": "score"
+            "major": "score",
+            "minor": "alpha"
         },
         "model_view": {
             "plot": {

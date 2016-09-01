@@ -118,7 +118,7 @@ var VIS = {
         },
         continuous: { // continuous variable: step is calculated automatically
             bar: {
-                w: 0.2, // proportion: how much x-axis bar takes up
+                w: 0.25, // proportion: how much x-axis bar takes up
             },
             ticks: 10
         },
